@@ -1,5 +1,5 @@
 
-# Insure API
+# Insurance Policy API
 
 Is a NodeJs, Express.js + TypeScript backend service for managing insurance policies and products.
 
