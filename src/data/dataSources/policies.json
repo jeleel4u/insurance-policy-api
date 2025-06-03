@@ -1,0 +1,103 @@
+[
+  {
+    "id": "pol_001",
+    "productId": "prod_motor",
+    "customerName": "Alice Smith",
+    "startDate": "2025-01-01",
+    "endDate": "2026-01-01",
+    "premium": 320,
+    "status": "active",
+    "createdAt": "2025-01-01T12:00:00Z"
+  },
+  {
+    "id": "pol_002",
+    "productId": "prod_pet",
+    "customerName": "Bob Johnson",
+    "startDate": "2024-05-15",
+    "endDate": "2025-05-15",
+    "premium": 160,
+    "status": "active",
+    "createdAt": "2024-05-15T08:00:00Z"
+  },
+  {
+    "id": "pol_003",
+    "productId": "prod_travel",
+    "customerName": "Carla Lewis",
+    "startDate": "2024-06-01",
+    "endDate": "2024-06-15",
+    "premium": 85,
+    "status": "expired",
+    "createdAt": "2024-05-20T14:30:00Z"
+  },
+  {
+    "id": "pol_004",
+    "productId": "prod_home",
+    "customerName": "Daniel Adams",
+    "startDate": "2023-10-01",
+    "endDate": "2024-10-01",
+    "premium": 420,
+    "status": "cancelled",
+    "createdAt": "2023-10-01T09:45:00Z"
+  },
+  {
+    "id": "pol_005",
+    "productId": "prod_motor",
+    "customerName": "Eva Martinez",
+    "startDate": "2025-03-10",
+    "endDate": "2026-03-10",
+    "premium": 310,
+    "status": "active",
+    "createdAt": "2025-03-10T16:00:00Z"
+  },
+  {
+    "id": "pol_006",
+    "productId": "prod_pet",
+    "customerName": "Fiona Green",
+    "startDate": "2025-02-01",
+    "endDate": "2026-02-01",
+    "premium": 155,
+    "status": "active",
+    "createdAt": "2025-02-01T11:00:00Z"
+  },
+  {
+    "id": "pol_007",
+    "productId": "prod_travel",
+    "customerName": "George Hall",
+    "startDate": "2025-05-20",
+    "endDate": "2025-06-10",
+    "premium": 90,
+    "status": "active",
+    "createdAt": "2025-05-10T13:00:00Z"
+  },
+  {
+    "id": "pol_008",
+    "productId": "prod_home",
+    "customerName": "Hannah Davis",
+    "startDate": "2024-11-15",
+    "endDate": "2025-11-15",
+    "premium": 395,
+    "status": "active",
+    "createdAt": "2024-11-15T08:30:00Z"
+  },
+  {
+    "id": "pol_009",
+    "productId": "prod_motor",
+    "customerName": "Ian Wright",
+    "startDate": "2023-09-01",
+    "endDate": "2024-09-01",
+    "premium": 340,
+    "status": "expired",
+    "createdAt": "2023-09-01T09:00:00Z"
+  },
+  {
+    "id": "pol_010",
+    "productId": "prod_travel",
+    "customerName": "Julia Black",
+    "startDate": "2025-07-01",
+    "endDate": "2025-07-20",
+    "premium": 95,
+    "status": "active",
+    "createdAt": "2025-06-15T10:00:00Z"
+  }
+]
+ 

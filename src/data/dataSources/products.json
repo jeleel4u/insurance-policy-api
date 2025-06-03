@@ -1,0 +1,35 @@
+[
+  {
+    "id": "prod_motor",
+    "name": "Motor Insurance",
+    "category": "motor",
+    "description": "Covers damage and liability for cars and motorcycles.",
+    "basePrice": 300,
+    "createdAt": "2024-01-01T10:00:00Z"
+  },
+  {
+    "id": "prod_pet",
+    "name": "Pet Insurance",
+    "category": "pet",
+    "description": "Covers vet bills and accident protection for pets.",
+    "basePrice": 150,
+    "createdAt": "2024-01-01T10:00:00Z"
+  },
+  {
+    "id": "prod_travel",
+    "name": "Travel Insurance",
+    "category": "travel",
+    "description": "Coverage for trips, cancellations, and emergencies abroad.",
+    "basePrice": 80,
+    "createdAt": "2024-01-01T10:00:00Z"
+  },
+  {
+    "id": "prod_home",
+    "name": "Home Insurance",
+    "category": "home",
+    "description": "Protects property and contents from damage and theft.",
+    "basePrice": 400,
+    "createdAt": "2024-01-01T10:00:00Z"
+  }
+]
+ 

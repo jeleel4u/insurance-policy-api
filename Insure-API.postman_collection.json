@@ -1,0 +1,564 @@
+{
+	"info": {
+		"_postman_id": "225f13f6-a43b-49f0-862a-cd2c2865a4ac",
+		"name": "Insure-API",
+		"description": "Insure-API Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "7480"
+	},
+	"item": [
+		{
+			"name": "localhost:3000/policies/pol_010",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "User-Agent",
+						"value": "insomnia/11.1.0"
+					},
+					{
+						"key": "x-api-key",
+						"value": "RW50ZXIgdGhlIHRleHQgdG8gQmFzZTY0IEVuY29kZQm"
+					}
+				],
+				"url": {
+					"raw": "{{baseURL1}}/policies/pol_010",
+					"host": [
+						"{{baseURL1}}"
+					],
+					"path": [
+						"policies",
+						"pol_010"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "not found / 404",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "User-Agent",
+								"value": "insomnia/11.1.0"
+							},
+							{
+								"key": "x-api-key",
+								"value": "RW50ZXIgdGhlIHRleHQgdG8gQmFzZTY0IEVuY29kZQm"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3000/policies/pol_010",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"policies",
+								"pol_010"
+							]
+						}
+					},
+					"status": "Not Found",
+					"code": 404,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "83"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"53-2OUqkg1O3mcxR2ZArlezsSTrKDE\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 30 May 2025 03:28:18 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "application/json; charset=utf-8 content type is not supported in the response body"
+				}
+			]
+		},
+		{
+			"name": "localhost:3000/policies/pol_010",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "User-Agent",
+						"value": "insomnia/11.1.0"
+					},
+					{
+						"key": "x-api-key",
+						"value": "RW50ZXIgdGhlIHRleHQgdG8gQmFzZTY0IEVuY29kZQm"
+					}
+				],
+				"url": {
+					"raw": "{{baseURL1}}/policies/pol_010",
+					"host": [
+						"{{baseURL1}}"
+					],
+					"path": [
+						"policies",
+						"pol_010"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "successfully / 200",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "User-Agent",
+								"value": "insomnia/11.1.0"
+							},
+							{
+								"key": "x-api-key",
+								"value": "RW50ZXIgdGhlIHRleHQgdG8gQmFzZTY0IEVuY29kZQm"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3000/policies/pol_010",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"policies",
+								"pol_010"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "389"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"185-XCISdrYVM+CRuDEFzLDnyaGdDho\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 30 May 2025 03:29:16 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "application/json; charset=utf-8 content type is not supported in the response body"
+				}
+			]
+		},
+		{
+			"name": "localhost:3000/policies",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "User-Agent",
+						"value": "insomnia/11.1.0"
+					},
+					{
+						"key": "x-api-key",
+						"value": "RW50ZXIgdGhlIHRleHQgdG8gQmFzZTY0IEVuY29kZQm"
+					}
+				],
+				"url": {
+					"raw": "{{baseURL1}}/policies",
+					"host": [
+						"{{baseURL1}}"
+					],
+					"path": [
+						"policies"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "created / 201",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "User-Agent",
+								"value": "insomnia/11.1.0"
+							},
+							{
+								"key": "x-api-key",
+								"value": "RW50ZXIgdGhlIHRleHQgdG8gQmFzZTY0IEVuY29kZQm"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3000/policies",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"policies"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "370"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"172-pza7/AsvNJLEtfZdmhSI6//52Ds\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 30 May 2025 01:49:14 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "application/json; charset=utf-8 content type is not supported in the response body"
+				}
+			]
+		},
+		{
+			"name": "localhost:3000/policies/?customerName=Ian Wright",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "User-Agent",
+						"value": "insomnia/11.1.0"
+					}
+				],
+				"url": {
+					"raw": "{{baseURL1}}/policies/?customerName=Ian%20Wright",
+					"host": [
+						"{{baseURL1}}"
+					],
+					"path": [
+						"policies",
+						""
+					],
+					"query": [
+						{
+							"key": "customerName",
+							"value": "Ian%20Wright"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "successfully / 200",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "User-Agent",
+								"value": "insomnia/11.1.0"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3000/policies/?customerName=Ian%20Wright",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"policies",
+								""
+							],
+							"query": [
+								{
+									"key": "customerName",
+									"value": "Ian%20Wright"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "382"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"17e-nAk+/oiZyVKOTrq4xzKpFleaHMU\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 30 May 2025 03:30:16 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "application/json; charset=utf-8 content type is not supported in the response body"
+				}
+			]
+		},
+		{
+			"name": "localhost:3000/health",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "User-Agent",
+						"value": "insomnia/11.1.0"
+					}
+				],
+				"url": {
+					"raw": "{{baseURL1}}/health",
+					"host": [
+						"{{baseURL1}}"
+					],
+					"path": [
+						"health"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "successfully / 200",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "User-Agent",
+								"value": "insomnia/11.1.0"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3000/health",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"health"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "90"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"5a-5LAe683n4ZE5i47yQC2kcjMph+o\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 30 May 2025 03:30:26 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "application/json; charset=utf-8 content type is not supported in the response body"
+				}
+			]
+		},
+		{
+			"name": "localhost:3000/policies/pol_010",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "User-Agent",
+						"value": "insomnia/11.1.0"
+					}
+				],
+				"url": {
+					"raw": "{{baseURL1}}/policies/pol_010",
+					"host": [
+						"{{baseURL1}}"
+					],
+					"path": [
+						"policies",
+						"pol_010"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "successfully / 200",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "User-Agent",
+								"value": "insomnia/11.1.0"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3000/policies/pol_010",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"policies",
+								"pol_010"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "389"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"185-XCISdrYVM+CRuDEFzLDnyaGdDho\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 30 May 2025 03:29:29 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "application/json; charset=utf-8 content type is not supported in the response body"
+				}
+			]
+		}
+	],
+	"variable": [
+		{
+			"key": "baseURL1",
+			"value": "http://localhost:3000",
+			"type": "any"
+		}
+	]
+}
